@@ -1,0 +1,23 @@
+.twoCards {
+  width: 100%;
+  /* background-color: gray; */
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.card {
+  width: 50%;
+  background-color: #fffefe;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 16px 10px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card .icon {
+  margin-bottom: 18px;
+}

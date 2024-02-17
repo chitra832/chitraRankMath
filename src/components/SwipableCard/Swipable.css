@@ -1,0 +1,46 @@
+.swipeCard {
+  width: 100%;
+  background: #fffefe;
+  padding: 10px 16px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  transition: height 0.3s ease;
+}
+
+.bitIcon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.bitIcon div {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.bitIcon .icon {
+  margin-right: 20px;
+}
+
+.badge {
+  background: #eb245b;
+  padding: 2px 16px;
+  border-radius: 15px;
+  color: white;
+}
+
+.swipeArrow {
+  text-align: center;
+  transition: all 0.3s ease-in;
+}
+
+.expandedContent {
+  transition: all 0.5s ease-in;
+}
+
+/* .swipeCard.expanded .swipeArrow {
+  transform: rotate(180deg);
+} */

@@ -1,0 +1,36 @@
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #fffefe;
+  padding: 20px;
+  align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  position: fixed;
+  top: 0;
+}
+
+.smallMenu {
+  position: absolute;
+  right: 28px;
+  top: 52px;
+  background: #fffefe;
+  padding: 10px;
+  border-radius: 10px;
+  width: 170px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  transition: all 0.5s ease-in;
+}
+
+.smallMenu .menutab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.divider {
+  background-color: #aeb8c4;
+  height: 0.1px;
+}

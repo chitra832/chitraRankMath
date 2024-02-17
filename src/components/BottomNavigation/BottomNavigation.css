@@ -1,0 +1,22 @@
+.bottomNav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #fffefe;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  position: fixed;
+  bottom: 0;
+}
+
+.bottomNav .icon {
+  transition: 0.3s ease-in;
+}
+
+.icon.active {
+  color: #4d5869;
+}
+
+.icon.inactive {
+  color: #aeb8c4;
+}

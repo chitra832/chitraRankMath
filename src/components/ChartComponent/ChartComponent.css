@@ -1,0 +1,50 @@
+.chartComponent {
+  margin-bottom: 20px;
+}
+.chartSwipeLabels {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 6px;
+  cursor: pointer;
+}
+
+.chartSwipeLabels .muted {
+  transition: all 0.3s ease-in;
+}
+
+.muted.active {
+  background: #aeb8c4;
+  color: white;
+  padding: 3px 10px;
+  border-radius: 12px;
+}
+
+.chartCard {
+  background-color: #fffefe;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  margin-top: 14px;
+  border-radius: 12px;
+  position: relative;
+}
+
+.chartCard .lowHigh {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.lowHigh h6 {
+  color: #b2b6bc;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.lastTitle h5 {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 18px;
+  left: 20px;
+}
